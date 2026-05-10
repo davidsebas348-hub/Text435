@@ -772,7 +772,7 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"MAIN","ESP","TELEPORT","FPS","YOUTUBE"}
+local menuOrder = {"MAIN","ESP","TELEPORT","ANTI","FPS","YOUTUBE"}
 local menuData = {
     ["MAIN"] = {
     "DESYNC",
@@ -791,8 +791,8 @@ local menuData = {
         "ESP DISTANCE",
         "ESP NAME",
     },
-    ["GUARD"] = {
-        "TRAP GUARD",
+    ["ANTI"] = {
+        "ANTI LAVA",
     },
     ["FLING"] = {
         "TOUCH FLING",
@@ -933,8 +933,8 @@ if topTitle then
         elseif opt == "ESP DISTANCE" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text439/refs/heads/main/Text439.lua"))()
 
-        elseif opt == "GET THE TOOL TIME MACHINE" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text346/refs/heads/main/Text346.lua"))()
+        elseif opt == "ANTI LAVA" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text440/refs/heads/main/Text440.lua"))()
                             
         elseif opt == "GET THE TOOL SPORTS DRINK" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text345/refs/heads/main/Text345.lua"))()
