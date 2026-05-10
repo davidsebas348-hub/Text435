@@ -227,7 +227,7 @@ local noToggleButtons = {
     ["SPEED BOOST"] = true,
     ["SHOW PANELS"] = true,  
     ["TP TO PLAYER"] = true,
-    ["AUTO PONER PANELS"] = true,
+    ["ANTI LAVA"] = true,
 }
 
 -- BOTONES SIN EFECTO VERDE
