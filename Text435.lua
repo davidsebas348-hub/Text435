@@ -1,7 +1,7 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text436/refs/heads/main/Text436.lua"))() -- detectar quien es Runner y Targger
 
 -- ======================
--- SBS HUB COMPLETO FINAL  (Build your escape))
+-- SBS HUB COMPLETO FINAL  (Super Tag)
 -- ======================
 repeat task.wait() until game:IsLoaded()
 
@@ -394,7 +394,7 @@ end
 local title = Instance.new("TextLabel", mainFrame)
 title.Size = UDim2.new(1,0,0,50)
 title.BackgroundColor3 = Color3.fromRGB(0,0,0)
-title.Text = "SBS HUB | Build Your Escape"
+title.Text = "SBS HUB | SUPER TAG"
 title.TextColor3 = Color3.fromRGB(255,255,255)
 title.Font = Enum.Font.GothamBold
 title.TextScaled = true
@@ -772,7 +772,7 @@ local scrollConfig = {
 -- ======================
 -- MENUS
 -- ======================
-local menuOrder = {"MAIN","ESP","GAMEPASS","PANELS","GUARD","TOOL","TRAP","PROXIMITY PROMPT","TELEPORT","FLING","AUTO FARM","Fps","YOUTUBE"}
+local menuOrder = {"MAIN","ESP","TELEPORT","FPS","YOUTUBE"}
 local menuData = {
     ["MAIN"] = {
     "DESYNC",
@@ -927,8 +927,8 @@ if topTitle then
         elseif opt == "ESP TAGGER AND RUNNER" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text437/refs/heads/main/Text437.lua"))()
                             
-        elseif opt == "AUTO COLLECT PANELS" then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text10/refs/heads/main/Text10.lua"))()
+        elseif opt == "ESP NAME" then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text438/refs/heads/main/Text438.lua"))()
                             
         elseif opt == "AUTO PONER PANELS" then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/davidsebas348-hub/Text12/refs/heads/main/Text12"))()
